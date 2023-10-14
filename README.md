@@ -10,7 +10,7 @@ Run `pip install -r requirements.txt` to install requirements.
 
 ## Usage 
 
-The functions to compute the persistent Laplacian in a number of ways are in `src/perslap.py`.
+Functions to compute the persistent Laplacian in a number of ways are in `src/perslap.py`.
 
 - To use the persistent Laplacian as a feature vector for a filtration $K_0 \subset K_1 \subset \dots$ using our vectorisation scheme, use the function `features_perslap`. 
 - To compute the persistent Laplacian of a complex pair $K \subset L$, use the function `pers_lap_pair`.
