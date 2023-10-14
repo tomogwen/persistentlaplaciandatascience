@@ -17,8 +17,8 @@ import warnings
 
 import warnings
 
-from utils import cubical_complex
-from perslap import compute_pers_lap_pair
+from ..src.utils import cubical_complex
+from ..src.perslap import compute_pers_lap_pair
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 

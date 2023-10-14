@@ -1,10 +1,13 @@
 
+# Persistent Laplacian - plot.py
+# (C) 2023 - T Davies, Z Wan, R Sanchez-Garcia
+# Made available under the MIT license
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 import seaborn as sns
-import sklearn
 
 
 def plot_one_lap(df, idx):
